@@ -1,2 +1,10 @@
----
+
+
 checkoutLocation: "ansible_collections"
+
+vscode:
+  extensions:
+    - ms-python.python
+    - redhat.ansible
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
