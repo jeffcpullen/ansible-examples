@@ -1,0 +1,14 @@
+---
+# code: language=ansible
+- hosts: localhost
+  vars:
+    my_var: foo
+  roles:
+    - jeffcpullen.ansible_examples.sample
+  tasks:
+
+  - name: include my roles
+    ansible.builtin.include_role:
+      role: jeffcpullen.ansible_examples.sample
+    vars:
+      my_var: foo
