@@ -8,3 +8,11 @@ vscode:
     - redhat.ansible
     - eamodio.gitlens
     - esbenp.prettier-vscode
+
+tasks:
+  - name: install ansible-core
+    init: pip3 install ansible-core
+    command: echo "ansible-core installed"
+  - name: install ansible-lint
+    init: pip3 install ansible-lint
+    command: echo "ansible-lint installed"
