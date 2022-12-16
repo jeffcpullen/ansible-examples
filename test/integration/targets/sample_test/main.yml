@@ -1,0 +1,5 @@
+---
+
+- name: Import sample role passing vars in an odd way
+  ansible.builtin.include_role:
+    name: jeffcpullen.ansible_examples.sample

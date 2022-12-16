@@ -1,0 +1,8 @@
+---
+
+- hosts: localhost
+  tasks:  
+
+  - name: Import tasks with goofy vars
+    ansible.builtin.include_tasks:
+      file: ../test/integration/targets/sample_test/main.yml

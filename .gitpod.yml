@@ -1,6 +1,6 @@
+---
 
-
-checkoutLocation: "ansible_collections"
+checkoutLocation: "collections/ansible_collections"
 
 vscode:
   extensions:
@@ -16,3 +16,6 @@ tasks:
   - name: install ansible-lint
     init: pip3 install ansible-lint
     command: echo "ansible-lint installed"
+  - name: install yamllint
+    init: pip3 install yamllint
+    command: echo" yamllint installed"
